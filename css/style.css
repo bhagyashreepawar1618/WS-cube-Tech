@@ -17,3 +17,75 @@
     color:white;
     padding:10px 18px;
 }
+
+/* banner content's styling */
+.banner-content h1
+{
+    font-size:52px;
+    font-weight:bolder;
+}
+.banner-content h1 span
+{
+    color:#2699FB;
+    text-decoration:line-through;
+}
+
+.banner-content p
+{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.banner-content ul
+{
+    list-style: none;
+    font-size:25px;
+}
+
+.banner-content ul li i
+{
+    color:#2699FB;
+}
+
+.banner-btn button
+{
+    width:50%;
+    color:white;
+    border: white;
+    border-radius:5px;
+    font-size: 20px;
+    padding:10px 0px;
+}
+
+.banner-btn button:first-child
+{
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+}
+
+/* .banner-btn button
+{
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+} */
+
+
+/* banner-form styling */
+.banner-form
+{
+    padding: 40px;
+}
+
+.banner-form h3
+{
+    font-size:18px;
+    font-weight: bold;
+}
+
+/* register button styling */
+.register-btn
+{
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    color:white;
+    width:100%;
+    font-size:20px;
+}
+

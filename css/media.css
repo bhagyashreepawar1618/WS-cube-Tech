@@ -1,5 +1,11 @@
 @media only screen and (min-width:200px) and (max-width:575px)
 {
+    header
+    {
+        position:fixed;
+        bottom:0;
+    }
+
     .btn-outer
     {
         position: fixed;
@@ -8,11 +14,48 @@
         width:100%;
         display: flex;
         justify-content:center !important;
+        background-color: white;
     }
     .whatsapp-btn, .call{
         padding:7px 15px;
         font-size:14px;
     }
+    .banner-content h1
+    {
+        font-size:28px;
+        font-weight:bold;          
+    }
+    .banner-content br
+    {
+        display:none;          
+    }
+    .banner-content p,.banner-content ul li
+    {
+        font: size 16px;
+    }
+
+    .banner-btn button
+    {
+        font-size: 12px;
+        padding:5px 0px;
+    }
+
+    .banner-btn
+    {
+        flex-direction: column;
+    }
+
+    .banner-btn button
+    {
+        width:100%;
+    }
+
+    .banner-form
+    {
+        padding: 20px;
+    }
+
+
 }
 
 @media (min-width: 1400px) {
